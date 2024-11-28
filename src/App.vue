@@ -1,9 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/test">測試頁面</router-link> |
+      <router-link to="/new">新頁面</router-link> |
+      <router-link to="/calculator">計算器</router-link> |
+      <router-link to="/students">學生列表</router-link>|
+      <router-link to="/student-manage">學生管理</router-link> |
+      <router-link to="/products">產品管理</router-link>|
+      <router-link to="/simple-todo">簡易TODO</router-link> |
+      <router-link to="/shopping-cart">購物車</router-link> |
+      <router-link to="/item-list">物品列表</router-link> |
+      <router-link to="/todo-list">待辦事項列表</router-link> <!-- 新增的鏈接 -->
+
+    </nav>
+    <router-view/>
+  </div>
 </template>
 
 <style>
